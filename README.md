@@ -20,3 +20,7 @@
 cd ~/lms/webapp
 
 sudo docker run  --rm -e SONAR_HOST_URL=http://54.177.219.62:9000 -e SONAR_TOKEN=sqp_a5fbf4ddee2592601b714fcc088a983e738d9213  -v ".:/usr/src" sonarsource/sonar-scanner-cli -Dsonar.projectKey=lms
+
+**Install Postgres**
+Go to the site https://www.postgresql.org/download/linux/ubuntu/ and copy paste the scrip to install 
+
